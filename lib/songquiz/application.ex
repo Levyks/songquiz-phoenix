@@ -13,9 +13,11 @@ defmodule Songquiz.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Songquiz.PubSub},
       # Start the Endpoint (http/https)
-      SongquizWeb.Endpoint
+      SongquizWeb.Endpoint,
+
       # Start a worker by calling: Songquiz.Worker.start_link(arg)
       # {Songquiz.Worker, arg}
+      {Songquiz.RoomChannel.Monitor, [%{}]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
