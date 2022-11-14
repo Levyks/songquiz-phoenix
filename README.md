@@ -1,5 +1,14 @@
 # Songquiz
 
+# DEPRECATED
+
+I've given up on developing this with Elixir/Phoenix for now, so I'll be doing it in TypeScript with Node.js/Socket.IO/uWebSockets.js
+
+New repo:
+[Levyks/songquiz-uws](https://github.com/Levyks/songquiz-uws)
+
+## -------------
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
